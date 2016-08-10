@@ -37,7 +37,7 @@ public class Employee {
 	}
 	
 	public void display(){
-		System.out.println("Yearly Salary of Employee "+firstname+" "+lastname+" is"+getSal());
+		System.out.println("Yearly Salary of Employee "+firstname+" "+lastname+" is"+(12*getSal()));
 	}	
 }
 
